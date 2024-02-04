@@ -31,7 +31,8 @@ os_bit = st.selectbox(
 )
 
 # Línea divisoria para mejorar la presentación
-st.divider()
+# st.divider()
+st.markdown("")
 
 # Botón para realizar la estimación cuando se hace clic
 if st.button("Find out"):
